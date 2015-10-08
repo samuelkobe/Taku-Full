@@ -1,0 +1,66 @@
+/* 
+    Document   : mrs-admin
+    Created on : Feb 19, 2014, 1:37:33 PM
+    Author     : zohaib
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.mrs-settings {
+    width: 95%;
+    display: block;   
+    overflow: hidden;
+}
+.mrs-heading {
+    font-size: 30px;
+    color: #000000;
+    display: block;
+    width: 100%;
+    padding: 0px;
+    line-height: 1.5;
+}
+
+.mrs-title {
+    font-size: 1.4em;
+    margin: 1.6em 0 1em;
+    padding: 0 0 6px 0;
+    border-bottom: 1px solid #ddd;
+    padding: 0px;
+    display: block;
+    line-height: 2;
+}
+
+span.status {
+    display: inline-block;
+    padding: 3px 6px;
+    color:#fff;
+    font-size: 12px;
+    /*background-color: lightGrey;*/
+    font-weight: bold;
+}
+
+.positive {
+    background-color:green;
+}
+.negative {
+    background-color:red;
+}
+.mrs1-reservation-form {    
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    display: block;
+}
+.form-table {
+    padding: 15px;
+}
+.footer {
+    padding: 15px;
+}
+.sagenda-errormesg {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    display: block;
+    padding:15px;
+   
+}

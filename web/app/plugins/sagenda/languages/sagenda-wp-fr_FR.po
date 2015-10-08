@@ -1,0 +1,240 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sagenda-wp\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-09 13:54+0200\n"
+"PO-Revision-Date: 2015-08-09 13:58+0200\n"
+"Last-Translator: David Imboden <info<this is at>iteration.info>\n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.3\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/templates/config.php:9
+msgid "Sagenda for WordPress: Sagenda Settings"
+msgstr "Sagenda pour WordPress: Paramètres Sagenda "
+
+#: admin/templates/config.php:20 templates/reservation.php:22
+msgid "You should enable curl service in your PHP/Apache configuration."
+msgstr ""
+"Vous devez activer le service CURL dans votre configuration PHP/Apache. "
+"Contactez votre hébergeur ou administrateur. "
+
+#: admin/templates/config.php:25
+msgid ""
+"It looks like Sagenda’s WebServices failed to connect to Internet and is "
+"blocked by the server’s firewall. Please contact your hosting provider "
+"support service and ask them to unblock Sagenda’s WebServices. You can give "
+"them our WP link as reference:"
+msgstr ""
+"Il semble que les WebServices de Sagenda ne possèdent pas d'accès à internet "
+"ou qu'ils soient bloqués par le pare-feu sur le serveur. Veuillez contacter "
+"votre fournisseur d'hébergement et leur demander de débloquer les "
+"WebServices de Sagenda. Vous pouvez leur donner notre lien de WP comme "
+"référence :"
+
+#: admin/templates/config.php:31
+msgid ""
+"Your token is wrong; please try again or generate another one in Sagenda’s "
+"backend."
+msgstr ""
+"Votre code d'authentification est faux, veuillez re-essayer ou en générer un "
+"nouveau dans le backoffice de Sagenda."
+
+#: admin/templates/config.php:37
+msgid "Sagenda Authentication Settings"
+msgstr "Paramètres d'authentification de Sagenda"
+
+#: admin/templates/config.php:37
+msgid "CONNECTED"
+msgstr "CONNECTÉ"
+
+#: admin/templates/config.php:37
+msgid "NOT CONNECTED"
+msgstr "NON CONNECTÉ"
+
+#: admin/templates/config.php:44
+msgid "Sagenda Authentication Code"
+msgstr "Code d'authentification de Sagenda"
+
+#: admin/templates/config.php:47
+msgid "Click here to get your Authentication code."
+msgstr "Cliquez ici pour obtenir votre code d'authentification."
+
+#: admin/templates/config.php:54
+msgid "Save Changes"
+msgstr "Sauver les changements"
+
+#: admin/templates/config.php:56
+msgid ""
+"[sagenda-wp] add this shortcode either in a post or page where you want to "
+"display the Sagenda form."
+msgstr ""
+"[sagenda-wp] ajoutez ce shortcode dans un article ou une page pour afficher "
+"Sagenda."
+
+#: admin/templates/config.php:57
+msgid ""
+"If you want to use a shortcode outside of the WordPress post or page editor, "
+"you can use this snippet to output it from the shortcode’s handler(s): "
+"<pre>echo do_shortcode([sagenda-wp])</pre>"
+msgstr ""
+"Si vous souhaitez afficher Sagenda en dehors d'une page ou d'un article vous "
+"pouvez utiliser le snippet : <pre>echo do_shortcode('[sagenda-wp]')</pre>"
+
+#: admin/templates/footer.php:2
+msgid ""
+"**NOTE: You first need to register on Sagenda and then you will get a "
+"Authentication token which you will use to validate this Sagenda Plugin. **"
+msgstr ""
+"**REMARQUE: Vous devez premièrement vous enregistrer sur Sagenda.net pour "
+"obtenir un code d'authentification que vous utiliserez dans le plugin "
+"WordPress pour vous identifier. **"
+
+#: admin/templates/footer.php:3
+msgid ""
+"You can read more information about <a href=\"http://www.sagenda.com/add-"
+"booking-system-website/add-booking-plugin-wordpress-website/\">Sagenda "
+"WordPress plugin</a>"
+msgstr ""
+"Vous pouvez lire plus d'informations à propos du <a href=\"http://www."
+"sagenda.com/add-booking-system-website/add-booking-plugin-wordpress-website/"
+"\" target=\"_blank\">plugin Sagenda pour WordPress</a>"
+
+#: admin/templates/footer.php:4
+msgid ""
+"To create a free account : <a href=\"https://sagenda.net/Accounts/Login"
+"\">https://sagenda.net/Accounts/Login</a>"
+msgstr ""
+"Créez un compte gratuit sur : <a href=\"https://sagenda.net/Accounts/Login\" "
+"target=\"_blank\">https://sagenda.net/Accounts/Login</a>"
+
+#: templates/booking.php:10
+msgid "Please fill out all the required fields"
+msgstr "Merci de remplir tous les champs demandés."
+
+#: templates/booking.php:21
+msgid "Title"
+msgstr "Titre"
+
+#: templates/booking.php:24
+msgid "Mr."
+msgstr "M"
+
+#: templates/booking.php:29
+msgid "Mrs."
+msgstr "Mme"
+
+#: templates/booking.php:39 templates/booking.php:41
+msgid "First Name"
+msgstr "Prénom"
+
+#: templates/booking.php:51 templates/booking.php:53
+msgid "Last Name"
+msgstr "Nom"
+
+#: templates/booking.php:63 templates/booking.php:65
+msgid "Phone Number"
+msgstr "Numéro de télephone"
+
+#: templates/booking.php:74 templates/booking.php:76
+msgid "Email"
+msgstr "Courriel"
+
+#: templates/booking.php:85
+msgid "Description"
+msgstr "Description"
+
+#: templates/booking.php:97
+msgid "Back to Calendar"
+msgstr "Retour au calendrier"
+
+#: templates/booking.php:98
+msgid "Submit"
+msgstr "Envoyer"
+
+#: templates/reservation.php:9
+msgid "Your Sagenda account is not connected:"
+msgstr "Vous n'avez pas connecté votre compte Sagenda :"
+
+#: templates/reservation.php:12
+msgid ""
+"1. Create a free account on <a href='https://sagenda.net/Accounts/"
+"Register'>Sagenda.</a> (set up your bookable items and events)."
+msgstr ""
+"1. Créez un compte gratuit sur <a href='https://sagenda.net/Accounts/"
+"Register' target=\"_blank\">Sagenda.</a> (paramétrez vos éléments "
+"réservables et vos évènements)."
+
+#: templates/reservation.php:15
+msgid "2. Copy your token (from the backend of sagenda.net Settings / account)"
+msgstr ""
+"2. Copiez votre code d'authentification depuis votre backoffice de sagenda."
+"net (sous Dashboard ou Settings / Account)"
+
+#: templates/reservation.php:43
+msgid "You successfully subscribed to the event."
+msgstr "Vous vous êtes inscrit à l'évènement avec succès."
+
+#: templates/reservation.php:56 templates/reservation.php:84
+msgid "Start date"
+msgstr "Date de début"
+
+#: templates/reservation.php:68 templates/reservation.php:95
+msgid "End Date"
+msgstr "Date de fin"
+
+#: templates/reservation.php:107
+msgid "Bookable Items"
+msgstr "Elements réservables"
+
+#: templates/reservation.php:110
+msgid "Bookable Item"
+msgstr "Element réservable"
+
+#: templates/reservation.php:127
+msgid "Click an event to book It:"
+msgstr "Cliquez un évènement pour le réserver:"
+
+#: templates/reservation.php:139
+msgid "Create a free Booking Account on Sagenda!"
+msgstr "Créez un compte gratuit sur Sagenda!"
+
+#: widgets/widget.php:12
+msgid "Reservation Widget"
+msgstr "Widget de réservation"
+
+#: widgets/widget.php:12
+msgid "Display the Reservation Form"
+msgstr "Affiche le formulaire de réservation"
+
+#: widgets/widget.php:20
+msgid "SAGENDA"
+msgstr "Paramètres d'authentification de Sagenda"
+
+#~ msgid "You didn’t connected your Sagenda account :"
+#~ msgstr "Vous n'avez pas connecté votre compte Sagenda :"
+
+#~ msgid "Courtesy"
+#~ msgstr "Titre"
+
+#~ msgid "Mrs"
+#~ msgstr "Mme"
+
+#~ msgid "Add this tag [sagenda-wp] in your pages, posts or in template."
+#~ msgstr ""
+#~ "Ajouter le tag [sagenda-wp] dans sur une page, un article ou dans le "
+#~ "template."
+
+#~ msgid "To learn more about our booking easy service please visit :"
+#~ msgstr ""
+#~ "Pour apprendre plus sur notre service de réservation merci de visiter :"

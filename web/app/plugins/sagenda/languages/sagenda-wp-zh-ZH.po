@@ -1,0 +1,225 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sagenda\n"
+"POT-Creation-Date: 2015-09-03 21:51+0200\n"
+"PO-Revision-Date: 2015-09-03 21:51+0200\n"
+"Last-Translator: David Imboden <info<this is at>iteration.info>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/templates/config.php:9
+msgid "Sagenda for WordPress: Sagenda Settings"
+msgstr "WordPres中的Sagenda应用: Sagenda设定"
+
+#: admin/templates/config.php:20 templates/reservation.php:22
+msgid "You should enable curl service in your PHP/Apache configuration."
+msgstr "你应该在你的PHP/Apache配置中启用curl服务."
+
+#: admin/templates/config.php:25
+msgid ""
+"It looks like Sagenda’s WebServices failed to connect to Internet and is "
+"blocked by the server’s firewall. Please contact your hosting provider "
+"support service and ask them to unblock Sagenda’s WebServices. You can give "
+"them our WP link as reference:"
+msgstr ""
+"可能出现的情况是Sagenda的网络服务不能连接网络，被服务器上的防火墙屏蔽。请联系"
+"你的主机服务供应商，获取支持，请求供应商解锁Sagenda的网络服务。你可以提供自己"
+"的WP连接作为供应商的参考。"
+
+#: admin/templates/config.php:31
+msgid ""
+"Your token is wrong; please try again or generate another one in Sagenda’s "
+"backend."
+msgstr "你的token错误，请重试或在Sagenda的后台重新生成另一个标签."
+
+#: admin/templates/config.php:37
+msgid "Sagenda Authentication Settings"
+msgstr "Sagenda认证设定"
+
+#: admin/templates/config.php:37
+msgid "CONNECTED"
+msgstr "已连接"
+
+#: admin/templates/config.php:37
+msgid "NOT CONNECTED"
+msgstr "未连接"
+
+#: admin/templates/config.php:44
+msgid "Sagenda Authentication Code"
+msgstr "Sagenda认证码"
+
+#: admin/templates/config.php:47
+msgid "Click here to get your Authentication code."
+msgstr "点击此处获取你的认证码."
+
+#: admin/templates/config.php:54
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: admin/templates/config.php:56
+msgid ""
+"[sagenda-wp] add this shortcode either in a post or page where you want to "
+"display the Sagenda form."
+msgstr "[sagenda-wp]在后期或在你计划展示Sagenda表格的页面中添加这个短代码."
+
+#: admin/templates/config.php:57
+msgid ""
+"If you want to use a shortcode outside of the WordPress post or page editor, "
+"you can use this snippet to output it from the shortcode’s handler(s): "
+"<pre>echo do_shortcode([sagenda-wp])</pre>"
+msgstr ""
+"如果你希望在WordPress后期或页面编辑器之外使用短代码，你可以使用这个片段 从短"
+"代码处理器中输出：<pre> echo do_shortcode([sagenda-wp])</pre>"
+
+#: admin/templates/footer.php:2
+#, fuzzy
+msgid ""
+"**NOTE: You first need to register on Sagenda and then you will get a "
+"Authentication token which you will use to validate this Sagenda Plugin. **"
+msgstr ""
+"**NOTE: You first need to register on Sagenda and then you will get a "
+"Authentication token which you will use to validate this Sagenda Plugin. **"
+
+#: admin/templates/footer.php:3
+#, fuzzy
+msgid ""
+"You can read more information about <a href=\"http://www.sagenda.com/add-"
+"booking-system-website/add-booking-plugin-wordpress-website/\">Sagenda "
+"WordPress plugin</a>"
+msgstr ""
+"Potete leggere ulteriori informazioni su <a href=\"http://www.sagenda.com/"
+"add-booking-system-website/add-booking-plugin-wordpress-website/\" target="
+"\"_blank\">Sagenda WordPress plugin</a>"
+
+#: admin/templates/footer.php:4
+#, fuzzy
+msgid ""
+"To create a free account : <a href=\"https://sagenda.net/Accounts/Login"
+"\">https://sagenda.net/Accounts/Login</a>"
+msgstr ""
+"आपका टोकन गलत है, कृपया फिर से कोशिश करें या सजेन्डा के बैकेंड में दूसरा टिकट जेनरेट करें।"
+
+#: templates/booking.php:10
+msgid "Please fill out all the required fields"
+msgstr "请在所有必填区域将信息填写完整"
+
+#: templates/booking.php:18
+#, fuzzy
+msgid "You are subscribing the following event : "
+msgstr "You are subscribing the following event : "
+
+#: templates/booking.php:27
+msgid "Title"
+msgstr "礼仪"
+
+#: templates/booking.php:30
+msgid "Mr."
+msgstr "先生"
+
+#: templates/booking.php:35
+msgid "Mrs."
+msgstr "女士"
+
+#: templates/booking.php:44 templates/booking.php:46
+msgid "First Name"
+msgstr "名字"
+
+#: templates/booking.php:56 templates/booking.php:58
+msgid "Last Name"
+msgstr "姓"
+
+#: templates/booking.php:68 templates/booking.php:70
+msgid "Phone Number"
+msgstr "电话号码"
+
+#: templates/booking.php:79 templates/booking.php:81
+msgid "Email"
+msgstr "电子邮件"
+
+#: templates/booking.php:90
+msgid "Description"
+msgstr "描述"
+
+#: templates/booking.php:102
+msgid "Back to Calendar"
+msgstr "返回日历"
+
+#: templates/booking.php:103
+msgid "Submit"
+msgstr "提交"
+
+#: templates/reservation.php:9
+msgid "Your Sagenda account is not connected:"
+msgstr "你未连接至你的Sagenda账户："
+
+#: templates/reservation.php:12
+msgid ""
+"1. Create a free account on <a href='https://sagenda.net/Accounts/"
+"Register'>Sagenda.</a> (set up your bookable items and events)."
+msgstr ""
+"1. 在 <a href='https://sagenda.net/Accounts/Register'>Sagenda.</a>  创建一个"
+"免费账户（设定你的可预订物品和事项）"
+
+#: templates/reservation.php:15
+msgid "2. Copy your token (from the backend of sagenda.net Settings / account)"
+msgstr "2.复制你的token （从sagenda.net的后台设定/账户"
+
+#: templates/reservation.php:43
+msgid "You successfully subscribed to the event."
+msgstr "你已成功订阅该事项."
+
+#: templates/reservation.php:56 templates/reservation.php:84
+msgid "Start date"
+msgstr "开始日期"
+
+#: templates/reservation.php:68 templates/reservation.php:95
+msgid "End Date"
+msgstr "结束日期"
+
+#: templates/reservation.php:107
+msgid "Bookable Items"
+msgstr "可预订物品"
+
+#: templates/reservation.php:110
+msgid "Bookable Item"
+msgstr "可预订单件物品"
+
+#: templates/reservation.php:127
+msgid "Click an event to book It:"
+msgstr "点击事项以进行预订:"
+
+#: templates/reservation.php:139
+msgid "Create a free Booking Account on Sagenda!"
+msgstr "在 Sagenda创建一个免费预订的账户！"
+
+#: widgets/widget.php:12
+msgid "Reservation Widget"
+msgstr "预订组件"
+
+#: widgets/widget.php:12
+msgid "Display the Reservation Form"
+msgstr "在预订表格中显示"
+
+#: widgets/widget.php:20
+msgid "SAGENDA"
+msgstr "SAGENDA"
+
+#~ msgid "Courtesy"
+#~ msgstr "礼仪"
+
+#~ msgid "Mrs"
+#~ msgstr "女士"
+
+#~ msgid "You didn’t connected your Sagenda account :"
+#~ msgstr "你未连接至你的Sagenda账户："

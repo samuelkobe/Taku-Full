@@ -1,0 +1,232 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sagenda\n"
+"POT-Creation-Date: 2015-09-03 21:52+0200\n"
+"PO-Revision-Date: 2015-09-03 21:52+0200\n"
+"Last-Translator: David Imboden <info<this is at>iteration.info>\n"
+"Language-Team: Sagenda <send us a message from sagenda.com>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/templates/config.php:9
+msgid "Sagenda for WordPress: Sagenda Settings"
+msgstr "Sagenda för Wordpress: Sagenda Inställningar"
+
+#: admin/templates/config.php:20 templates/reservation.php:22
+msgid "You should enable curl service in your PHP/Apache configuration."
+msgstr "Du bör göra det möjligt curl service i din PHP / Apache-konfiguration."
+
+#: admin/templates/config.php:25
+msgid ""
+"It looks like Sagenda’s WebServices failed to connect to Internet and is "
+"blocked by the server’s firewall. Please contact your hosting provider "
+"support service and ask them to unblock Sagenda’s WebServices. You can give "
+"them our WP link as reference:"
+msgstr ""
+"Det ser ut som att Sagenda Web Services inte kan nå internet och blockeras "
+"av brandväggen på servern. Vänligen kontakta ditt webbhotell support och be "
+"dem att häva blockeringen Sagenda Web Services. du kan ge dem vår WP länk "
+"som referenser:"
+
+#: admin/templates/config.php:31
+msgid ""
+"Your token is wrong; please try again or generate another one in Sagenda’s "
+"backend."
+msgstr ""
+"Din token är fel, försök igen eller generera en annan biljett i Sagenda s "
+"backend."
+
+#: admin/templates/config.php:37
+msgid "Sagenda Authentication Settings"
+msgstr "Sagenda Autentiseringsinställningar"
+
+#: admin/templates/config.php:37
+msgid "CONNECTED"
+msgstr "ANSLUTEN"
+
+#: admin/templates/config.php:37
+msgid "NOT CONNECTED"
+msgstr "EJ ANSLUTEN"
+
+#: admin/templates/config.php:44
+msgid "Sagenda Authentication Code"
+msgstr "Sagenda autentisering kod"
+
+#: admin/templates/config.php:47
+msgid "Click here to get your Authentication code."
+msgstr "Klicka här för att få din Authentication koden."
+
+#: admin/templates/config.php:54
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: admin/templates/config.php:56
+msgid ""
+"[sagenda-wp] add this shortcode either in a post or page where you want to "
+"display the Sagenda form."
+msgstr ""
+"[sagenda-wp] lägga till denna kort kod antingen i inlägg eller sida där du "
+"vill visa Sagenda formuläret."
+
+#: admin/templates/config.php:57
+msgid ""
+"If you want to use a shortcode outside of the WordPress post or page editor, "
+"you can use this snippet to output it from the shortcode’s handler(s): "
+"<pre>echo do_shortcode([sagenda-wp])</pre>"
+msgstr ""
+"Om du vill använda en kortkod utanför Wordpress post eller sida editor, kan "
+"du använda denna snutt till utdata från kortkod s handler (er): <pre> echo "
+"do_shortcode ([sagenda-wp]) </ pre>"
+
+#: admin/templates/footer.php:2
+msgid ""
+"**NOTE: You first need to register on Sagenda and then you will get a "
+"Authentication token which you will use to validate this Sagenda Plugin. **"
+msgstr ""
+"**Notera : måste du först registrera sig på Sagenda och sedan får du "
+"enAutentiseringstoken som du använder för att validera denna Sagenda Plugin."
+"**"
+
+#: admin/templates/footer.php:3
+msgid ""
+"You can read more information about <a href=\"http://www.sagenda.com/add-"
+"booking-system-website/add-booking-plugin-wordpress-website/\">Sagenda "
+"WordPress plugin</a>"
+msgstr ""
+"Du kan läsa mer information om <a href=\"http://www.sagenda.com/add-booking-"
+"system-website/add-booking-plugin-wordpress-website/\">Sagenda WordPress "
+"plugin</a>"
+
+#: admin/templates/footer.php:4
+msgid ""
+"To create a free account : <a href=\"https://sagenda.net/Accounts/Login"
+"\">https://sagenda.net/Accounts/Login</a>"
+msgstr ""
+"För att skapa ett gratis konto: <a href=\"https://sagenda.net/Accounts/Login"
+"\">https://sagenda.net/Accounts/Login</a>"
+
+#: templates/booking.php:10
+msgid "Please fill out all the required fields"
+msgstr "Fyll i alla obligatoriska fält"
+
+#: templates/booking.php:18
+msgid "You are subscribing the following event : "
+msgstr ""
+
+#: templates/booking.php:27
+msgid "Title"
+msgstr "Med tillstånd"
+
+#: templates/booking.php:30
+msgid "Mr."
+msgstr "Mr."
+
+#: templates/booking.php:35
+msgid "Mrs."
+msgstr "Mrs."
+
+#: templates/booking.php:44 templates/booking.php:46
+msgid "First Name"
+msgstr "Förnamn"
+
+#: templates/booking.php:56 templates/booking.php:58
+msgid "Last Name"
+msgstr "Efternamn"
+
+#: templates/booking.php:68 templates/booking.php:70
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+#: templates/booking.php:79 templates/booking.php:81
+msgid "Email"
+msgstr "E-post"
+
+#: templates/booking.php:90
+msgid "Description"
+msgstr "Beskrivning"
+
+#: templates/booking.php:102
+msgid "Back to Calendar"
+msgstr "Tillbaka till kalendern"
+
+#: templates/booking.php:103
+msgid "Submit"
+msgstr "Spara"
+
+#: templates/reservation.php:9
+msgid "Your Sagenda account is not connected:"
+msgstr "Du har inte anslutit Sagenda-konto:"
+
+#: templates/reservation.php:12
+msgid ""
+"1. Create a free account on <a href='https://sagenda.net/Accounts/"
+"Register'>Sagenda.</a> (set up your bookable items and events)."
+msgstr ""
+"1. Skapa ett gratis konto på <a href='https://sagenda.net/Accounts/Register' "
+"target=\"_blank\"> Sagenda. </a> (Installations dina bokningsbara objekt och "
+"händelser)."
+
+#: templates/reservation.php:15
+msgid "2. Copy your token (from the backend of sagenda.net Settings / account)"
+msgstr ""
+"2. Kopiera din token (från backend av sagenda.net Inställningar / konto"
+
+#: templates/reservation.php:43
+msgid "You successfully subscribed to the event."
+msgstr "Du prenumererar för händelsen."
+
+#: templates/reservation.php:56 templates/reservation.php:84
+msgid "Start date"
+msgstr "Startdatum"
+
+#: templates/reservation.php:68 templates/reservation.php:95
+msgid "End Date"
+msgstr "Slutdatum"
+
+#: templates/reservation.php:107
+msgid "Bookable Items"
+msgstr "Boknings Items"
+
+#: templates/reservation.php:110
+msgid "Bookable Item"
+msgstr "Boknings Item"
+
+#: templates/reservation.php:127
+msgid "Click an event to book It:"
+msgstr "Klicka på en händelse för att boka det:"
+
+#: templates/reservation.php:139
+msgid "Create a free Booking Account on Sagenda!"
+msgstr "Skapa en gratis Boknings konto på Sagenda!"
+
+#: widgets/widget.php:12
+msgid "Reservation Widget"
+msgstr "Reservation Widget"
+
+#: widgets/widget.php:12
+msgid "Display the Reservation Form"
+msgstr "Display the Reservation Form"
+
+# Swedish
+#: widgets/widget.php:20
+msgid "SAGENDA"
+msgstr "SAGENDA"
+
+#~ msgid "Courtesy"
+#~ msgstr "Med tillstånd"
+
+#~ msgid "Mrs"
+#~ msgstr "Mrs"
+
+#~ msgid "You didn’t connected your Sagenda account :"
+#~ msgstr "Du har inte anslutit Sagenda-konto:"
